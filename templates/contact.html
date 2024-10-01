@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #000;
+            color: white;
+        }
+        .navbar {
+            background-color: #00a65a;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .contact-form {
+            background: #333;
+            padding: 40px;
+            border-radius: 10px;
+        }
+        .btn-custom {
+            background-color: #00a65a;
+            border: none;
+        }
+        .btn-custom:hover {
+            background-color: #007b48;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a class="navbar-brand">My Book Recommender</a>
+        <ul class="nav navbar-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/recommend">Recommend</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="contact-form">
+                    <h2>Contact Us</h2>
+                    <form>
+                        <div class="form-group">
+                            <label>Your Name</label>
+                            <input type="text" class="form-control" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label>Your Message</label>
+                            <textarea class="form-control" rows="4" placeholder="Your message..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-custom btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
